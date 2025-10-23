@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | BrightWeb Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">BrightWeb<span>Studio</span></h1>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Get In Touch</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BrightWeb Studio.</p>
+  </footer>
+</body>
+</html>
